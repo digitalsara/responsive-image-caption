@@ -61,11 +61,29 @@ p {
 
   .content {
     background-color: rgba(0, 0, 0, .3);
-    color: #fff;
-    position: absolute;
+    border-radius: 12px;
     bottom: 1em;
-    right: 1em;
+    color: #fff;
     max-width: 20rem;
+    position: absolute;
+    right: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 
 }
