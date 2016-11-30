@@ -43,3 +43,29 @@ p {
   font-family: Georgia, serif;
   margin: 0;
 }
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  figure {
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+
+  figcaption {
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+
+}
